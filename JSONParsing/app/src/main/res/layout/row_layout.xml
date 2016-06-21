@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tx_name"
+        android:layout_alignParentLeft="true"
+        android:text="Lovepreet"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tx_email"
+        android:layout_toRightOf="@+id/tx_name"
+        android:text="love@gmail.comt"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceSmall"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tx_mobiel"
+        android:layout_toRightOf="@+id/tx_email"
+        android:text="Lovepreet"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceSmall"/>
+
+</RelativeLayout>
